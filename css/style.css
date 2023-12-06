@@ -1,0 +1,278 @@
+/*!Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100&family=Cabin:wght@600&display=swap');
+
+/*!Reset*/
+*{margin: 0;
+padding: 0;
+font-family: 'Bitter', serif;
+font-family: 'Cabin', sans-serif;
+box-sizing: border-box;
+}
+
+/*!...header...*/
+
+
+.header{
+    background-image: url(../img/Encabezado.png);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position:center;
+    width:100%;
+    height: 200px;
+    position: sticky;
+    top: 0%;
+    z-index: 100;
+    padding: 20px;
+    margin: 0px;
+}
+header h1{
+    font-size: 100px;
+    color: gold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-style: oblique;   
+    font-weight: 800;
+    text-align: left;
+}
+
+
+header nav ul li a{
+    color: gold;
+    font-size: 20px;
+    display: flex;
+
+}
+
+.nav-logo{
+    width: 80px;
+    height: 70px;
+
+
+}
+
+header h2{color: gold;
+    text-align: justify;
+    margin: 5px;
+
+ }           
+
+    .azul{color:aquamarine;}
+
+
+/*!...Main...*/
+
+.Bienvenidos {
+    background-color: aqua;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 15px;color: black;
+
+    
+
+}
+.Bienvenidos h2{
+    color:rgb(14, 15, 15);
+    text-decoration: solid;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 40px;
+}
+
+.Bienvenidos div a{
+    text-decoration: none;
+    background-color:aquamarine;
+    color: blue;
+    padding-block: 15px;
+    
+
+    
+    
+
+}
+
+.Bienvenidos div p{
+    
+    width: 800pxs;
+    height: 200px;
+    font-size: 20px;
+    margin-bottom: 100px;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    border-color: black;
+    
+
+}
+
+.Ofertas{
+    margin-bottom: 100px;
+}
+.Ofertas h2{
+    color:aquamarine;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 40px;
+}
+.Ofertas div h3{
+    color: aquamarine;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Ofertas div{
+    width: 380px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+}
+.Ofertas div a{
+    text-decoration: none;
+    display: inline-block;
+    background-color:black
+}
+.Ofertas div a img{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    
+    
+
+}
+
+
+main section p{
+    color: black;
+}
+.Boton{color: darkred;
+
+}
+.Listas-de-precios{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Listas-de-precios a{
+    text-decoration: none;
+
+}
+.Marcas{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+/*!...Footer...*/
+.footer{
+    background-color: aqua;
+}
+.footer div a img{ width: 50px;
+    height: 50px;
+
+}
+/*!...Contacto...*/
+.Background-form{ 
+    background-color: blue;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.img-atención{
+    display: flex;
+    background-image: url(../img/Atencion\ al\ cliente.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    backface-visibility: visible;
+    width: 100%;
+    height: 500px;
+    position: static;
+    top: 10%;
+    z-index: 100;
+    padding: 20px;
+    margin: 0px;
+    text-align:center
+    
+}
+.texto-atención{
+    
+    
+    align-items: center;
+    display: table-column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+
+}
+.texto-atención h1{
+    font: size 100px;
+
+    
+}
+.texto-atención{ 
+    width: 800pxs;
+    height: 200px;
+    font-size: 40px;
+    
+    padding: 30px;
+    margin: 30px;
+}
+
+.Mapa{
+    background-color: grey;
+}
+.Mapa div {
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    align-items: center;
+
+}
+.form-container{
+    display: flex;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color:blue;
+    background-size: cover;
+    background-position:center;
+    
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0/ 30%);
+    text-align: center;
+    
+}
+
+.form-item{
+    width: 100%;
+    background: none;
+    color:black;
+    padding: .6em 3em;
+    border-bottom: 1px solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: end;
+    justify-items: center;
+}
+/*!...Contacto...*/
+/*!...Lubricantes...*/
+
+.grid-container{
+    border: solid 5px gold;
+    margin: 6px;
+    display: grid;
+    grid-auto-rows: 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.grid-items{
+    width:100%;
+    height: 100%;
+    }
+
